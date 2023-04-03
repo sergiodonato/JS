@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js ex 4</title>
+    <style>
+        * {
+            background-color: rgba(153, 205, 50, 0.61);
+            color: blue;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Algumas tricks</h1>
+    <p>Usando .length</p>
+    <p>document.write(`< h2>Seu nome tem ${nome.length} letras.</>`)= aparece na tela do corpo</p>
+    <pre>
+        <code>
+                var n1 = 144.5
+                n1.toFixed(5)
+        >144.50000
+                n1.toFixed(2).replace('.', '.')
+        >144,50
+                n1.toLocaleString('pt-BR', {style:'currency', currency:'BRLL'})
+        >R$ 144,50
+        </code>
+    </pre>
+    <hr>
+    <script>
+        var nome = window.prompt('Qual é seu nome')
+        document.write(`Olá ${nome}. <br>`)
+        document.write(`<strong>Seu nome tem ${nome.length} letras.</strong><br>`)
+        document.write(`seu nome em maisculua é ${nome.toUpperCase()}`)
+    </script>
+</body>
+</html>

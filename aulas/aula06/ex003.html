@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro prog</title>
+    <style>
+        body {
+            background-color: rgba(44, 134, 161, 0.87);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(228, 28, 21);
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+
+        h1, h2 {
+            color: rgb(198, 231, 80);
+        }
+    </style>
+</head>
+<body>
+    <h1>Corridos</h1>
+    <p>number + number = adição</p>
+    <p>string + string = concatenação</p>
+
+    <h2>Conversão string para números</h2>
+    <p>Parse é 'converter'.</p>
+    <hr>
+    <p>Number.parseInt(n)</p>
+    <p>Number.parseFloat(n)</p>
+    <p>Number(n) - o JS generaliza e se vira!</p>
+
+    <h2>Conversão de número pra string</h2>
+    <p>String(n)</p>
+    <p>n.toString()</p>
+
+    <h2>Formatação Strings</h2>
+    <p>Template string</p>
+    <p>`A soma dos n's é ${n}`. Usa crase pra iniciar a sentença.</p>
+    <p>${n} = placeholder</p>
+    <hr>
+    <p>var s = 'JavaScript'</p>
+    <p>s.length = tamanho da string</p>
+    <p>s.toUpperCase() = tudo maiúsculo</p>
+    <p>s.toLowerCase() = tudo minúsculo</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('digite n1: '))
+        var n2 = Number(window.prompt('digite n2: '))
+        var s = n1 + n2
+        window.alert(`A soma dos valores de ${n1} e ${n2} é igual ${s}`)
+    </script>
+</body>
+</html>
