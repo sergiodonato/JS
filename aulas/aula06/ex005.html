@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: rgba(82, 82, 163, 0.884);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+    </style>
+</head>
+<body>
+    <h1> DOM = Document Object Model</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo usar o <strong>DOM</strong> em JS</p>
+    <div id="msg">Clique em mim</div>
+    <hr>
+    <h2>Árvore DOM</h2>
+    <h4>window = raiz</h4>
+    <p>location = url</p>
+    <p>document = documento atual</p>
+    <p>html = head(meta, title) e body(h1, p(strong), div)</p>
+    <p>history = de onde veio, pra onde vai(facilita navegação)</p>
+    <img src="imagens/arvore-dom.png" alt="árvore DOM">
+    <p>Dentro do script, dá pra ter noção dos parentais e suas ações... Veja árvore para ter noção dos elementos da árvore DOM</p>
+    <hr>
+    <h2>Métodos de acesso p/ árvore DOM</h2>
+    <img src="imagens/selecionando.png" alt="selecionando">
+    <p><strong>MARCA</strong> getElementsByTagName()[elemento] = pode selecionar mais de 1 objeto ( tipo 'p')</p>
+    <p>innerText pega texto, enquanto, innerHTML pega o css tb</p>
+    <p><strong>ID</strong> window.document.getElementsById('msg')</p>
+    <p><strong>NOME</strong> getElementsByTagName()</p>
+    <p><strong>CLASSE</strong> getElementsByCla(), poderia por class na div acima</p>
+    <p><strong>SELETOR</strong> qyerySelector(), querySelectorAll(), MAIS USADO"</p>
+    <hr>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'yellow'
+        window.document.write('Olha o paragrafo indicado: ' + p1.innerText)
+        /*window.document.getElementById('msg').innerText = 'olá' */
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'purple'
+    </script>
+</body>
+</html>

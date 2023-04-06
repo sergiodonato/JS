@@ -29,6 +29,25 @@
         </code>
     </pre>
     <hr>
+    <h2>Operadores lógicos</h2>
+    <p><strong>!</strong> = negação(true, false)</p>
+    <p><strong>&&</strong> = conjunção, 'e'(true, false)</p>
+    <p>true && false = false, true && true = true</p>
+    <p><strong>||</strong> = disjunção 'ou'(true, false)</p>
+    <p>true || false = true, false || false = false</p>
+    <img src="imagens/precedencia.png" alt="tabela de precendência">
+    <hr>
+    <h2>Operador Ternário</h2>
+    <p>teste ? true : false</p>
+    <p>média >= 7 ? 'aprovado' : 'reprovado'</p>
+    <pre>
+        <code>
+            var x = 8
+            var res = x % 2 == 0 ? 5 : 9
+        >> x = 8
+        >> res = 5
+        </code>
+    </pre>
     <script>
         var nome = window.prompt('Qual é seu nome')
         document.write(`Olá ${nome}. <br>`)
