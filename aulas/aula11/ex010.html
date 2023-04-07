@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="VERIFICAR" onclick="calcular()">
+    <div id="res"> </div>
+    <hr>
+    <h1>Sistema de deportos</h1>
+    Nacionalidade: <input type="text" name="txtnac" id="txtnac">.
+    <input type="button" value="VERIFICAR" onclick="verificar()">
+    <div id="res2"> </div>
+
+    <script>
+        
+        function calcular() {
+            var txtv = window.document.getElementById('txtvel')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(txtv.value)
+            res.innerHTML = `<p>Sua velocidade atual é de ${vel} Km/h</p>`
+            if (vel > 60) {
+                res.innerHTML += '<p><strong>Seje multado!</strong></p>'
+            }
+            res.innerHTML += '<p>Dirija sempre sem vacilar</p>'
+        }
+
+        function verificar() {
+            var txtn = window.document.getElementById('txtnac')
+
+            var res2 = window.document.querySelector('div#res2')
+
+            var nac = txtn.value   
+
+            res2.innerHTML = `<p>Sua nacionalidade atual é ${nac}</p>`
+
+            if (nac == 'BR') {
+                res2.innerHTML += '<p><strong>Seje multado e trabalhe o dobro!</strong></p>'
+            }
+            
+            res2.innerHTML += '<p>Seje resiliente</p>'
+
+        }
+    </script>
+
+
+</body>
+</html>
