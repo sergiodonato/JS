@@ -1,0 +1,28 @@
+Curso Moderno de Javascript
+Aulas:
+1 - console.log
+2 - use strict / variaveis
+3 - variavel local / global
+4 - Operadores Matemáticos
+5 - Operadores Relacionais - comparações
+6 - ...
+7 - Operadores Lógicos
+8 - Operadores Bitwise
+9 - Pré Incremento e Pós Incremento
+10 - Operador ternário: teste lógico
+11 - Operador Typeof, retornando o tipo da variável
+12 - Operador Spread
+13 - Comando condicional IF e IF ELSE
+14 - Comando Switch Case
+15 - Loop FOR
+16 - Loops FOR IN e FOR OF
+17 - Loop While
+18 - WHILE e DO WHILE
+19 - declarações BREAK e CONTINUE
+20 - FUNÇÕES
+21 - FUNÇÕES com retorno
+22 - FUNÇÕES parametrizadas
+23 - Parâmetros REST em funções
+24 - Funções Anônimas
+25 - Arrow Function
+26 - Funções dentro de funções
