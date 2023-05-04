@@ -26,3 +26,5 @@ Aulas:
 24 - Funções Anônimas
 25 - Arrow Function
 26 - Funções dentro de funções
+27 - Funções Geradoras
+28 - método MAP
