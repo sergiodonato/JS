@@ -28,3 +28,5 @@ Aulas:
 26 - Funções dentro de funções
 27 - Funções Geradoras
 28 - método MAP
+29 - operador THIS
+30 - Método getElementById. Manipulando DOM
