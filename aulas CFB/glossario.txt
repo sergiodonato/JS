@@ -30,3 +30,7 @@ Aulas:
 28 - método MAP
 29 - operador THIS
 30 - Método getElementById. Manipulando DOM
+31 - Método getElementsByTagName. Manipulando DOM
+32 - Método getElementsByClassName. Manipulando DOM
+33 - querySelector e querySelectorAll. Manipulando DOM
+34 - Adicionando eventos com addEventListener
