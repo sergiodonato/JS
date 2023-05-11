@@ -1,54 +1,50 @@
 // Adicionando eventos com addEventListener:
-// 
+// funções podem ser disparadas a cada acontecimento;
+// podem ser programados dentro das tags ou dentro dos arquivos .js;
 
-const divTodas = [...document.getElementsByTagName("div")]
+function msg(){
+    alert("clicou via .js")
+}
 
-const cursosTodos = [...document.getElementsByClassName("curso")]
+// pode ser func anonima, usando arrow func.
+const msg2 = () => {
+    alert("clicou na arrow anonima funcktion!")
+}
 
-const cursosC1 = [...document.getElementsByClassName("c1")]
+// fazendo da forma padrãofifa, chamando função pré-existente:
+const c4 = document.querySelector("#c4")
 
-const cursosC2 = [...document.getElementsByClassName("c2")]
+c4.addEventListener("click", msg)
+// função anonima fazedora de action!:
+const c5 = document.querySelector("#c5")
 
-const cursoEspecial = document.getElementById("c1")
+c5.addEventListener("click", () => {
+    alert("clicou padrão fifa")
+})
+// buscando o target do evento
+const c6 = document.querySelector("#c6")
 
-// pega a primeira div que aparecer:
-// const query_divTodas = document.querySelector("div")
+c6.addEventListener("click", (evt) => {
+    console.log(evt.target)
+})
+// adicionando classe destaque no target
+// const c7 = document.querySelector("#c7")
 
-// pega todas:
-// para mais de uma tag, separar por ",";
-// classe especifica com o "." antes do nome;
-// id especifica com "#" antes do nome;
-
-
-//const query_divTodas = [...document.querySelectorAll("div, p")]
-
-// const query_divTodas = [...document.querySelectorAll("div[class]")] // pega todas div com atributo class
-
-query_divTodas = [...document.querySelectorAll("div > p")] // pegando as div' com elemento p' dentro
-
-const query_cursosTodos = [...document.querySelectorAll(".curso")]
-const query_cursosC1 = [...document.querySelectorAll(".c1, p")]
-const query_cursosC2 = [...document.querySelectorAll(".c2")]
-const query_cursoEspecial = document.querySelector("#c1")
-// const query_cursoEspecial = document.querySelectorAll("#c1")[0]
-
-
-
-console.log(query_divTodas)
-console.log(query_cursosTodos)
-console.log(query_cursosC1)
-console.log(query_cursosC2)
-console.log(query_cursoEspecial)
-
-// console.log(divTodas)
-// console.log(cursosTodos)
-// console.log(cursosC1)
-// console.log(cursosC2)
-// console.log(cursoEspecial)
-
-// cursosC2.map((el) =>{
+// c7.addEventListener("click", (evt) => {
+//     const el = evt.target
 //     el.classList.add("destaque")
 // })
+
+// colocando evento destaque para todos do c2:
+const cursosC2 = [...document.querySelectorAll(".c2")]
+
+cursosC2.map((el) => {
+    el.addEventListener("click", (evt) => {
+        const el = evt.target
+        el.classList.add("destaque")
+        console.log(el.innerHTML + " foi clicado")
+    })
+})
 
 //console.log('-----Fim do Programa-----')
 

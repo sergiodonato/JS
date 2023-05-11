@@ -34,3 +34,6 @@ Aulas:
 32 - Método getElementsByClassName. Manipulando DOM
 33 - querySelector e querySelectorAll. Manipulando DOM
 34 - Adicionando eventos com addEventListener
+35 - Praticando sobre addEventListener
+36 - Praticando sobre addEventListener p2
+37 - Parando a propagação do evento com o método stopPropagation
