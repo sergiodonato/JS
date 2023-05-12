@@ -37,3 +37,7 @@ Aulas:
 35 - Praticando sobre addEventListener
 36 - Praticando sobre addEventListener p2
 37 - Parando a propagação do evento com o método stopPropagation
+38 - Entendendo a relação dos elementos no DOM
+39 - Entendendo a relação dos elementos no DOM p2
+40 - Criando novos elementos e adicionando no DOM
+41 - Removendo elementos do DOM em Javascript com removeChild
