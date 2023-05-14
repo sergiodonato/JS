@@ -42,3 +42,4 @@ Aulas:
 40 - Criando novos elementos e adicionando no DOM
 41 - Removendo elementos do DOM em Javascript com removeChild
 42 - método FILTER
+43 - Prática com o método FILTER
