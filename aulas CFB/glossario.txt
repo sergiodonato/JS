@@ -43,3 +43,7 @@ Aulas:
 41 - Removendo elementos do DOM em Javascript com removeChild
 42 - método FILTER
 43 - Prática com o método FILTER
+44 - Removendo elementos do DOM em Javascript #P2 função remove()
+45 - Criando elementos #P2 antes e depois de outros elementos
+46 - Método Toggle para gerenciar Classes CSS
+47 -* Método FIND para encontrar elementos em Arrays
