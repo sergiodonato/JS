@@ -47,3 +47,5 @@ Aulas:
 45 - Criando elementos #P2 antes e depois de outros elementos
 46 - Método Toggle para gerenciar Classes CSS
 47 -* Método FIND para encontrar elementos em Arrays
+48 - Aprendendo o método EVERY
+49 - Aprendendo o método SOME
