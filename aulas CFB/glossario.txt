@@ -49,3 +49,7 @@ Aulas:
 47 -* Método FIND para encontrar elementos em Arrays
 48 - Aprendendo o método EVERY
 49 - Aprendendo o método SOME
+50 - Aprendendo o método REDUCE:
+    realizar cálculos, agregações ou transformações nos elementos de um array, produzindo um único resultado.
+51 - Aprendendo ITERADORES e elementos iteráveis
+52 - Aprendendo sobre ARRAY
