@@ -53,3 +53,6 @@ Aulas:
     realizar cálculos, agregações ou transformações nos elementos de um array, produzindo um único resultado.
 51 - Aprendendo ITERADORES e elementos iteráveis
 52 - Aprendendo sobre ARRAY
+53 - Populando ARRAYS com funções
+    Feito uma calculado simples na HTML.
+54 - Aprendendo sobre a Coleção MAP
