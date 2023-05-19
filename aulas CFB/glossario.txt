@@ -56,3 +56,5 @@ Aulas:
 53 - Populando ARRAYS com funções
     Feito uma calculado simples na HTML.
 54 - Aprendendo sobre a Coleção MAP
+55 - Aprendendo sobre a Coleção SET
+56 - Template Strings
