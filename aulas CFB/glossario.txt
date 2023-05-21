@@ -59,3 +59,10 @@ Aulas:
 55 - Aprendendo sobre a Coleção SET
 56 - Template Strings
 57 - Entendendo sobre Objetos
+58 - Entendendo sobre Objetos #P2
+59 - Entendendo sobre Objetos #P3
+60 - Entendendo sobre Objetos #P4
+61 - Entendendo sobre Objetos #P5
+    objetos literais
+62 - Entendendo sobre Herança em POO - Objetos #P6
+63 - Exercício sobre Classes #P1 - Objetos #P7
