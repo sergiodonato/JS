@@ -67,3 +67,4 @@ Aulas:
 62 - Entendendo sobre Herança em POO - Objetos #P6
 63 - Exercício sobre Classes #P1 - Objetos #P7
 64 - Exercício sobre Classe #P2 - Objetos #P8
+65 - Aprendendo sobre conversões de JSON e Objetos
