@@ -68,3 +68,4 @@ Aulas:
 63 - Exercício sobre Classes #P1 - Objetos #P7
 64 - Exercício sobre Classe #P2 - Objetos #P8
 65 - Aprendendo sobre conversões de JSON e Objetos
+66 - Aprendendo sobre membros Static e POO - Objetos #P9
