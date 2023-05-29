@@ -72,3 +72,7 @@ Aulas:
 67 - Aprendendo sobre PROTOTYPE e POO - Objetos #P10
 68 - Aprendendo POLIMORFISMO em POO - Objetos #P11
 69 - Aprendendo ABSTRACT em POO - Objetos #P12
+70 - Exercício Calculadora #P1
+71 - #P2
+72 - #P3
+73 - Javascript clipboard, copiando para área de transferência do Windows 
