@@ -75,4 +75,5 @@ Aulas:
 70 - Exercício Calculadora #P1
 71 - #P2
 72 - #P3
-73 - Javascript clipboard, copiando para área de transferência do Windows 
+73 - Javascript clipboard, copiando para área de transferência do Windows
+74 - Criando Aba em Gaveta
