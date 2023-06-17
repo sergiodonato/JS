@@ -78,3 +78,6 @@ Aulas:
 73 - Javascript clipboard, copiando para área de transferência do Windows
 74 - Criando Aba em Gaveta
 75 - Aprendendo sobre Promise
+76 - Aprendendo sobre Promise #-P2
+77 - Aprendendo sobre Data e Hora
+78 - Criando um Relógio - Data e Hora #P2
