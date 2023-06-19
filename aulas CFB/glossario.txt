@@ -81,3 +81,6 @@ Aulas:
 76 - Aprendendo sobre Promise #-P2
 77 - Aprendendo sobre Data e Hora
 78 - Criando um Relógio - Data e Hora #P2
+79 - Criando um Timer com Alarme - Data e Hora #P3
+80 - Aprendendo sobre a biblioteca MATH
+81 - Praticando um algumas funções da biblioteca MATH
