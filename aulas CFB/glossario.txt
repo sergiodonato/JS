@@ -84,3 +84,8 @@ Aulas:
 79 - Criando um Timer com Alarme - Data e Hora #P3
 80 - Aprendendo sobre a biblioteca MATH
 81 - Praticando um algumas funções da biblioteca MATH
+82 - Atividade Prática de Classes #P1
+83 - Atividade Prática de Classes #P2
+84 - Atividade Prática de Classes #P3
+85 - Atividade Prática de Classes #P4
+86 - Atividade Prática de Classes #P5
