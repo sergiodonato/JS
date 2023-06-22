@@ -89,3 +89,9 @@ Aulas:
 84 - Atividade Prática de Classes #P3
 85 - Atividade Prática de Classes #P4
 86 - Atividade Prática de Classes #P5
+87 - Como navegar no Histórico e Redirecionamento de Página
+88 - Aprendendo sobre as Caixas de Diálogo
+89 - Criando PDF e Imprimindo conteúdo da página em HTML
+90 - Aprendendo sobre Objetos Literais #P1
+91 - Aprendendo sobre Objetos Literais #P2
+92 - Aprendendo trabalhar com módulos #P1
