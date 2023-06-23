@@ -95,3 +95,8 @@ Aulas:
 90 - Aprendendo sobre Objetos Literais #P1
 91 - Aprendendo sobre Objetos Literais #P2
 92 - Aprendendo trabalhar com módulos #P1
+93 - Aprendendo trabalhar com módulos #P2
+94 - Aprendendo trabalhar com módulos #P3
+95 - Aprendendo trabalhar com módulos #P4
+96 - Aprendendo trabalhar com módulos #P5
+97 - Aprendendo trabalhar com módulos #P6
