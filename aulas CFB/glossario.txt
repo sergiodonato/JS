@@ -100,3 +100,5 @@ Aulas:
 95 - Aprendendo trabalhar com módulos #P4
 96 - Aprendendo trabalhar com módulos #P5
 97 - Aprendendo trabalhar com módulos #P6
+98 - Aprendendo sobre a função SYMBOL #P1
+99 - Aprendendo mais sobre a função SYMBOL #P2 
