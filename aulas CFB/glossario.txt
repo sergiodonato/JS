@@ -101,4 +101,7 @@ Aulas:
 96 - Aprendendo trabalhar com módulos #P5
 97 - Aprendendo trabalhar com módulos #P6
 98 - Aprendendo sobre a função SYMBOL #P1
-99 - Aprendendo mais sobre a função SYMBOL #P2 
+99 - Aprendendo mais sobre a função SYMBOL #P2
+100 - Aprendendo mais sobre a função SYMBOL #P3
+101 - Funções para manipulação de STRING #P1
+102 - Funções para manipulação de STRING #P2
