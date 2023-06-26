@@ -105,3 +105,7 @@ Aulas:
 100 - Aprendendo mais sobre a função SYMBOL #P3
 101 - Funções para manipulação de STRING #P1
 102 - Funções para manipulação de STRING #P2
+103 - Funções para manipulação de STRING #P3
+104 - Funções para manipulação de STRING #P4
+105 - RegEx Expressões Regulares #P1
+106 - RegEx Expressões Regulares #P2
