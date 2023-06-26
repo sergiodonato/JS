@@ -109,3 +109,7 @@ Aulas:
 104 - Funções para manipulação de STRING #P4
 105 - RegEx Expressões Regulares #P1
 106 - RegEx Expressões Regulares #P2
+107 - Aprendendo programar animação #P1
+108 - Aprendendo programar animação #P2
+109 - Diferença entre setInterval e setTimeout - Animação #P3
+110 - Aprendendo programar animação em #P4
