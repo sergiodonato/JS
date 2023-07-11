@@ -112,4 +112,8 @@ Aulas:
 107 - Aprendendo programar animação #P1
 108 - Aprendendo programar animação #P2
 109 - Diferença entre setInterval e setTimeout - Animação #P3
-110 - Aprendendo programar animação em #P4
+110 - Aprendendo programar animação #P4
+111 - Aprendendo programar animação #P5
+112 - Aprendendo sobre a função getBoundingClientRect()
+113 - Aprendendo sobre a propriedade accessKey
+114 - Aprendendo sobre Desestruturação #P1 
