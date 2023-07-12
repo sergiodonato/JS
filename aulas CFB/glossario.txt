@@ -1,4 +1,6 @@
 Curso Moderno de Javascript
+Documentação oficial : www.ecma-international.org / ecma 262
+
 Aulas:
 1 - console.log
 2 - use strict / variaveis
@@ -116,4 +118,8 @@ Aulas:
 111 - Aprendendo programar animação #P5
 112 - Aprendendo sobre a função getBoundingClientRect()
 113 - Aprendendo sobre a propriedade accessKey
-114 - Aprendendo sobre Desestruturação #P1 
+114 - Aprendendo sobre Desestruturação #P1
+115 - Aprendendo sobre Desestruturação #P2
+116 - Aprendendo sobre Geolocalização
+117 - Casos em que o Ponto e Vírgula é obrigatório em Javascript #P1
+118 - Casos em que o Ponto e Vírgula é obrigatório em Javascript #P2
