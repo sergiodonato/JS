@@ -123,3 +123,10 @@ Aulas:
 116 - Aprendendo sobre Geolocalização
 117 - Casos em que o Ponto e Vírgula é obrigatório em Javascript #P1
 118 - Casos em que o Ponto e Vírgula é obrigatório em Javascript #P2
+119 - Aprendendo sobre validação nativa #P1
+120 - Aprendendo sobre validação nativa #P2
+121 - WebStorage, localStorage e SessionStorage
+
+shift + alt + setas
+c^+ shift + k
+c^ +k , c^ + s
