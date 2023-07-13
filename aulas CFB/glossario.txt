@@ -126,6 +126,8 @@ Aulas:
 119 - Aprendendo sobre validação nativa #P1
 120 - Aprendendo sobre validação nativa #P2
 121 - WebStorage, localStorage e SessionStorage
+122 - Aprendendo sobre FETCH para consumo de APIs #P1
+123 - Aprendendo sobre FETCH para consumo de APIs #P2
 
 shift + alt + setas
 c^+ shift + k
