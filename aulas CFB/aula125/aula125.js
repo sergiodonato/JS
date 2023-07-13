@@ -1,14 +1,15 @@
-// Aprendendo sobre FETCH para consumo de APIs #P2:
+// Aprendendo sobre FETCH para consumo de APIs #P4:
 // -- para consumo criar variavel por boas práticas:
 
 const p_temp = document.getElementById("p_temp");
 const p_nivel = document.getElementById("p_nivel");
 const p_press = document.getElementById("p_press");
+const btn_texto = document.getElementById("btn_texto");
 
 const obterDados = () => {
   const endpoint = "https://pinchers.sergionasciment.repl.co/";
 
-  let res = fetch(endpoint)
+  let res = fetch(endpoint, { method: "get" })
     .then((res) => res.json())
     .then((dados) => {
       console.log(dados);
@@ -18,7 +19,31 @@ const obterDados = () => {
     });
 };
 
-let intervalo = setInterval(obterDados, 3000)
+let dados = {
+  nome: "Isqueiro",
+  canal: "Canal Urinário",
+  curso: "Curso de Rio",
+};
+
+let cabecalho = {
+  method: "POST",
+  body: JSON.stringify(dados),
+};
+
+const gravarDados = () => {
+  const endpoint = "https://pinchers.sergionasciment.repl.co/";
+  fetch(endpoint, cabecalho)
+    .then((res) => res.json())
+    .then((ret) => {
+      console.log(ret);
+    });
+};
+
+btn_texto.addEventListener('click', (evt) => {
+  gravarDados()
+})
+
+// let intervalo = setInterval(obterDados, 3000)
 
 // -- conteudo feito no replit, para mostrar a saida de um numero random
 /* var http = require("http");

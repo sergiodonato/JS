@@ -128,6 +128,9 @@ Aulas:
 121 - WebStorage, localStorage e SessionStorage
 122 - Aprendendo sobre FETCH para consumo de APIs #P1
 123 - Aprendendo sobre FETCH para consumo de APIs #P2
+124 - Aprendendo sobre FETCH para consumo de APIs #P3
+125 - Aprendendo sobre FETCH para consumo de APIs #P4
+
 
 shift + alt + setas
 c^+ shift + k
