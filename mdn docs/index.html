@@ -17,6 +17,11 @@
         margin: 0 auto;
       }
 
+      h1 {
+        text-align: center;
+        color: green;
+      }
+
       .form input[type="number"] {
         width: 200px;
       }
@@ -29,11 +34,11 @@
   </head>
 
   <body>
-    <h1>Jogo de adivinhar números</h1>
+    <h1>Jogo de adivinhar números!!</h1>
 
     <p>
       Selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar
-      em 10 voltas ou menos. Diremos se seu palpite foi muito alto ou muito
+      em 10 palpites ou menos. Diremos se seu palpite foi muito alto ou muito
       baixo.
     </p>
 
@@ -51,6 +56,7 @@
     </div>
 
     <div class="resultadoParas">
+      <p class="teste"></p>
       <p class="palpites"></p>
       <p class="ultimoResultado"></p>
       <p class="baixoOuAlto"></p>
@@ -59,6 +65,7 @@
     <script>
       var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
+      var teste = document.querySelector('.teste')
       var palpites = document.querySelector(".palpites");
       var ultimoResultado = document.querySelector(".ultimoResultado");
       var baixoOuAlto = document.querySelector(".baixoOuAlto");
@@ -75,6 +82,8 @@
           palpites.textContent = "Palpites anteriores: ";
         }
         palpites.textContent += palpiteUsuario + " ";
+
+        teste.textContent = "Palpites restantes: " + ( 10 - contagemPalpites)
 
         if (palpiteUsuario === numeroAleatorio) {
           ultimoResultado.textContent = "Parabéns! Você acertou!";
